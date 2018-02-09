@@ -1,5 +1,7 @@
 import React from 'react';
 import { Router, Route, Link, hashHistory } from 'react-router';
+import PropTypes from 'prop-types'
+
 
 // const Home = () => <div><h1>Home</h1><Links /></div>;
 
@@ -20,7 +22,7 @@ class Home extends React.Component {
   }
 }
 
-Home.contextTypes = { router: React.PropTypes.object.isRequired }
+Home.contextTypes = { router: PropTypes.object.isRequired }
 
 const About = () => <div><h1>About</h1><Links /></div>;
 const Links = () => {
