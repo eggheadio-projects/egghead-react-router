@@ -1,5 +1,9 @@
 import React from 'react';
 import { Router, Route, Link, hashHistory } from 'react-router';
+
+// React.PropTypes has moved into a different package
+// since React v15.5. Please use the prop-types library
+// instead to define contextTypes.
 import PropTypes from 'prop-types'
 
 
